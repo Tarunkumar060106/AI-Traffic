@@ -27,9 +27,15 @@ The AI Traffic Management System optimizes traffic flow using real-time data and
 
 ### 4. Technical Implementation
 - **Data Collection & Vehicle Detection:** Real-time traffic footage analyzed with OpenCV.
+   ![Project Screenshot](images/data.jpg)
+   ![Project Screenshot](images/count.jpg)
 - **Dynamic Signal Adjustment:** Adjust signals based on traffic density and emergency vehicle prioritization.
+  
 - **Simulation Using PyGame:** Simulate traffic conditions to optimize signal timings.
+  ![Project Screenshot](images/simulation.jpg)
+
 - **Video Feed Integration:** Continuous monitoring for dynamic traffic management adjustments.
+  ![Project Screenshot](images/feed.jpg)
 
 ### 5. Data Analysis & Optimization
 - **Traffic Pattern Analysis:** Optimize signal timings using historical and real-time data.
