@@ -39,7 +39,7 @@ This web-based application is designed to assist Indian coal mines in their jour
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/Carbon-Neutrality-App.git
+    git clone https://github.com/Manish281005/Eco-Mine-India.git
     cd Carbon-Neutrality-App
     ```
 
