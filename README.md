@@ -26,6 +26,8 @@ The AI Traffic Management System optimizes traffic flow using real-time data and
 - **Cost Analysis:** Breakdown of development, deployment, and operational costs.
 
 ### 4. Technical Implementation
+- **Home:**
+  ![Project Screenshot](images/index.jpg)
 - **Data Collection & Vehicle Detection:** Real-time traffic footage analyzed with OpenCV.
    ![Project Screenshot](images/data.jpg)
    ![Project Screenshot](images/count.jpg)
