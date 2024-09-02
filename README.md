@@ -32,7 +32,7 @@ The AI Traffic Management System optimizes traffic flow using real-time data and
 - **Dynamic Signal Adjustment:** Adjust signals based on traffic density and emergency vehicle prioritization.
   
 - **Simulation Using PyGame:** Simulate traffic conditions to optimize signal timings.
-  ![Project Screenshot](images/simulation.jpg)
+  ![Project Screenshot](images/simulation.jpg.png)
 
 - **Video Feed Integration:** Continuous monitoring for dynamic traffic management adjustments.
   ![Project Screenshot](images/feed.jpg)
