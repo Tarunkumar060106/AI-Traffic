@@ -1,7 +1,7 @@
 Here's a sample `README.md` for your project:
 
 ---
-
+# **ECO MINE INDIA**
 # **Carbon Neutrality in Indian Coal Mines**
 
 ## **Project Overview**
