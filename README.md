@@ -1,6 +1,6 @@
 
 
-## AI Traffic Management System
+## TraffiXpert - AI Traffic management Model
 
 ### 1. Introduction
 The AI Traffic Management System optimizes traffic flow using real-time data and machine learning algorithms. It reduces congestion, enhances safety, and improves transportation efficiency through dynamic traffic signal adjustments and vehicle rerouting.
