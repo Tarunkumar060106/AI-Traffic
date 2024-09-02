@@ -1,0 +1,321 @@
+/* Global Styles */
+body {
+    font-family: Monaco, monospace;
+    background-color: #E3E3E3;
+    margin: 0;
+    padding: 0;
+    color: #5E503F; /* Consistent text color */
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    color: #5E503F;
+    text-align: center;
+}
+.logo {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    height: auto;
+    width: 50px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.demo_sim {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #0A0908; /* Dark background for the header */
+    color: #EAE0D5; /* Light text color */
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0A0908;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: #EAE0D5;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #22333B;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #003366; /* Dark blue background for the hero section */
+    color: #EAE0D5; /* Light text color */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Features Section */
+.features {
+    background-color: #f5f5f5; /* Light gray background for the features section */
+    padding: 50px 0;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1em;
+}
+
+/* Video Feed Section */
+.video-panel {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video-grid {   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-gap: 20px;
+}
+
+.video-grid video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    background-color: #E3E3E3; /* Light gray background for contact section */
+    padding: 50px 0;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contact ul li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.contact ul li a {
+    color: #003366; /* Dark blue color for links */
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #0A0908; /* Dark background for footer */
+    color: #EAE0D5; /* Light text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+/* Graph */
+.graph-section {
+    background-color: #f5f5f5; /* Light gray background for the section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.graph-section h2 {
+    text-align: center;
+    color: #5E503F; /* Darker text color */
+    margin-bottom: 20px;
+}
+
+#vehicleChart {
+    width: 100% !important; 
+    height: 500px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Vehicle Count Table */
+.vehicle-count {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle-count h2 {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
+
+.vehicle-count table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.vehicle-count th, .vehicle-count td {
+    border: 1px solid #B0B0B0;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.vehicle-count th {
+    background-color: #003366;
+    color: #FFF;
+    font-weight: bold; /* Light color for header text */
+}
+
+.vehicle-count td {
+    background-color: #F9F9F9; /* Dark text color */
+}
+
+.vehicle-count tr:nth-child(even) td {
+    background-color: #fff; 
+}
+
+.vehicle-count tr:hover td {
+    background-color: #fff; 
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav li {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .vehicle-count h2 {
+        font-size: 1.5em;
+    }
+
+    .vehicle-count th, .vehicle-count td {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
+
+/* Traffic Lights */
+.traffic-lights {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.traffic-light {
+    width: 60px;
+    height: 180px;
+    background-color: #333;
+    border-radius: 25px;
+    padding: 10px;
+    position: relative;
+}
+
+.light {
+    width: 40px;
+    height: 40px;
+    background-color: #111;
+    border-radius: 50%;
+    margin: 10px auto;
+    transition: background-color 0.5s;
+}
+
+.light.red.active {
+    background-color: red;
+}
+
+.light.yellow.active {
+    background-color: yellow;
+}
+
+.light.green.active {
+    background-color: green;
+}

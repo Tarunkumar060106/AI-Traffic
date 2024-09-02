@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Count Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <a href="home.html">
+            <img src="car_white.png" alt="Clickable Image" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="traffic-lights.html">Simulation</a></li>
+                <li><a href="vehicle-count.html">Reports - Table</a></li>
+                <li><a href="vehicle-graph.html">Reports - Graph</a></li>
+                <li><a href="feed.html">Video Feed</a></li>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>  
+    </header>
+    
+    <div class="container">
+        <h1>Vehicle Count Display</h1>
+        <p></p>
+
+        <!-- Vehicle Count Table -->
+        <div class="vehicle-count">
+            <h2>Vehicle Count per Lane</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Direction</th>
+                        <th>Lane 1</th>
+                        <th>Lane 2</th>
+                        <th>Lane 3</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>North</td>
+                        <td id="northLane1">0</td>
+                        <td id="northLane2">0</td>
+                        <td id="northLane3">0</td>
+                        <td id="northTotal">0</td>
+                    </tr>
+                    <tr>
+                        <td>South</td>
+                        <td id="southLane1">0</td>
+                        <td id="southLane2">0</td>
+                        <td id="southLane3">0</td>
+                        <td id="southTotal">0</td>
+                    </tr>
+                    <tr>
+                        <td>East</td>
+                        <td id="eastLane1">0</td>
+                        <td id="eastLane2">0</td>
+                        <td id="eastLane3">0</td>
+                        <td id="eastTotal">0</td>
+                    </tr>
+                    <tr>
+                        <td>West</td>
+                        <td id="westLane1">0</td>
+                        <td id="westLane2">0</td>
+                        <td id="westLane3">0</td>
+                        <td id="westTotal">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Vehicle Count Simulation Script -->
+    <script src="vehicle-count.js"></script>
+</body>
+</html>

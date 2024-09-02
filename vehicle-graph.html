@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Count Over Time</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="home.html">
+            <img src="car_white.png" alt="Clickable Image" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="traffic-lights.html">Simulation</a></li>
+                <li><a href="vehicle-count.html">Reports - Table</a></li>
+                <li><a href="vehicle-graph.html">Reports - Graph</a></li>
+                <li><a href="feed.html">Video Feed</a></li>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>  
+    </header>
+    
+    <div class="container">
+        <h1>Vehicle Count Over Time</h1>
+
+        <!-- Vehicle Count vs Time Graph -->
+        <div class="graph-section">
+            <canvas id="vehicleChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Vehicle Count Graph Script -->
+    <script src="vehicle-graph.js"></script>
+</body>
+</html>
